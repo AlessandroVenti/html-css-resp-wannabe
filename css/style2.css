@@ -1,9 +1,32 @@
-* {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@media screen and (max-width: 420px) {
 
-body {
+  .row {
+    width: auto;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central {
+    float: left;
+    width: 50%;
+  }
+
+  img {
+    height: 180px;
+  }
+
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  .row>.right img {
+    margin-top: 30px;
+  }
+
 }
